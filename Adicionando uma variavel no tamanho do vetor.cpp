@@ -19,6 +19,9 @@ int main()
 	
 	for(i = 0; i < N; i++)
 		cout << vetor[i] << endl;
-		
+
+	// liberando a memoria alocada
+	delete [] vetor;
+	
 	return 0;
 }
